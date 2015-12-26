@@ -356,6 +356,15 @@ iOS6.0+
 
 **版本支持:**    
 3.0.0+
+
+**示例:** 
+
+```
+                uexQQ.cbGetUserInfo = function(opId,dataType,data){
+			alert("cbGetUserInfo："+data);
+		}
+```
+
 ## 2.2 回调方法:
 > ### cbLogin  登录完成的回调方法           
 
