@@ -339,6 +339,23 @@ iOS6.0+
      uexQQ.shareImgTextToQZone(appId, json);
     }
 ```
+> ### getUserInfo 得到用户信息
+
+`uexQQ.getUserInfo()`
+
+**说明:**    
+得到用户信息  
+回调 [cbGetUserInfo](#cbGetUserInfo  得到用户信息  "cbGetUserInfo")
+
+**参数:**    
+无       
+
+**平台支持:**    
+Android2.2+                 
+iOS6.0+    
+
+**版本支持:**    
+3.0.0+
 ## 2.2 回调方法:
 > ### cbLogin  登录完成的回调方法           
 
@@ -395,6 +412,8 @@ iOS6.0+
  
 | 历史发布版本 | iOS更新 | 安卓更新 |
 | ------------ | ------------ | ------------ |
+| 3.0.13 |SDK更新为2.9.3(2015-11-03）,新增注销授权、获取用户信息接口| |
+| 3.0.12 |删去腾讯SDK中的info.plist,防止ERROR ITMS-90049| |
 | 3.0.11 | sdk版本升级至2.9.2| |
 | 3.0.10 | 删除bundle中info.plist的Executable字段,解决Xcode7上传报错的问题| |
 | 3.0.9 | 解决分享多张图片到QQ空间闪退的bug| |
