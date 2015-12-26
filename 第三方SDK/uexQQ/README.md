@@ -413,7 +413,22 @@ iOS6.0+
 | data|String类型 | 必选 | 安装结果，0-已安装，1-未安装 |
 
 **版本支持:**    
-3.0.0+                                          
+3.0.0+    
+
+> ###cbGetUserInfo  得到用户信息的回调方法      
+
+`uexQQ.cbGetUserInfo(opId,dataType,data)`
+
+**参数:**    
+
+| 参数名称 | 参数类型 | 是否必选 | 说明 |
+| ------------ | ------------ | ------------ | ------------ |
+| appId| Number类型| 必选 | 操作ID，此函数中不起作用，可忽略。 |
+| dataType|Number类型 | 必选 | 数据类型详见CONSTANT中Callback方法数据类型 |
+| data|String类型 | 必选 | 安装结果，0-已安装，1-未安装 |
+
+**版本支持:**    
+3.0.0+ 
 
 # 3、更新历史
  API 版本:uexQQ-3.0.11(iOS) uexQQ-3.0.4（Android）    
